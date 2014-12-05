@@ -3,14 +3,14 @@
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="app.css">
   </head>
-  <body ng-app="myApp">
+  <body ng-app="myApp" ng-controller="MyController as myCtrl">
 
-    <expandable-section title="click me"
-                        section-body="bam">
+    <expandable-section title="myCtrl.title"
+                        body="myCtrl.body">
     </expandable-section>
 
-    <expandable-section section-title="click me baby"
-                        section-body="one more time">
+    <expandable-section title="'click me baby'"
+                        body="'one more time'">
     </expandable-section>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
